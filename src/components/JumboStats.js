@@ -1,9 +1,5 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
-import {
-  Link
-} from 'react-router-dom';
 import StatsJumbo from '../../src/Images/statsImages/StatsJumbo.png';
 
 
@@ -22,7 +18,7 @@ class JumboStats extends React.Component {
         <div className="col-sm custom-jumbo5">
         <img
             src={StatsJumbo}
-            alt="Jumbo Feat Image"
+            alt="Jumbo Feat"
             width="600px"
             height="400px"
           />

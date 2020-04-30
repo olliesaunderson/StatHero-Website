@@ -16,7 +16,7 @@ class AboutInfo extends React.Component {
             <Col className="col-12 col-md-6 aboutimgpadding1 about1 d-flex justify-content-center">
               <img
                 src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/About1.png")}
-                alt="About 1 Image"
+                alt="About 1"
                 width="400"
                 height="350"
               />
@@ -37,7 +37,7 @@ class AboutInfo extends React.Component {
             <Col className="col-12 col-md-6 aboutimgpadding2 about2 d-flex justify-content-center">
               <img
                 src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/About2.png")}
-                alt="About 2 Image"
+                alt="About 2"
                 width="350"
                 height="400"
               />
@@ -48,7 +48,7 @@ class AboutInfo extends React.Component {
             <Col className="col-10 col-md-5 d-flex justify-content-center about3 aboutimgpadding3">
               <img
                 src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/About3.png")}
-                alt="About 3 Image"
+                alt="About 3"
                 width="400"
                 height="350"
               />

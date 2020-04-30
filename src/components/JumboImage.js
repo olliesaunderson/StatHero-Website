@@ -7,7 +7,7 @@ class JumboImage extends React.Component {
       <div className="JumboImg">
       <img className="BannerImg"
           src={BannerImage}
-          alt="FAQ Feat Image"
+          alt="FAQ Feat"
           width="1150px"
           height="390px"
         />

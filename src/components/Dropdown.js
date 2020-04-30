@@ -1,8 +1,5 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
 
 class Dropdown extends React.Component {
   render() {

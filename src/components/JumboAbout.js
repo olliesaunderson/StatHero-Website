@@ -27,7 +27,7 @@ class JumboAbout extends React.Component {
         <div className="col-sm custom-about-jumbo">
         <img
             src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/AboutJumboImg.png")}
-            alt="About Feat Image"
+            alt="About Feat"
             width="600px"
             height="500px"
           />

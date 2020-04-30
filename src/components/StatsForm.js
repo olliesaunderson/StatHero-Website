@@ -35,6 +35,8 @@ class StatsForm extends React.Component {
         case "ita":
           this.setState({dropdownLeague: [{value: "sera", label: "Serie A"},{value: "serb", label: "Serie B"}]});
           break;
+        default:
+        // do nothing
       }
       console.log(this.state)
     }
@@ -60,6 +62,8 @@ class StatsForm extends React.Component {
         case "sera":
           this.setState({dropdownFixture: [{value: "juvlaz", label: "Juventus vs Lazio"},{value: "intata", label: "Inter Milan vs Atalanta"},{value: "romnap", label: "Roma vs Napoli"}]});
           break;
+        default:
+        // do nothing
       }
     }
 
@@ -134,6 +138,8 @@ class StatsForm extends React.Component {
             case "romnap":
               this.props.changeFixture({homeTeam: "Roma", awayTeam: "Napoli", stats: {over05: {home: 1.0, away: 1.2}, over15: {home: 0.8, away: 1.6},over25: {home: 1.0, away: 1.2}, btts: {home: 0.8, away: 1.6},under05: {home: 1.0, away: 1.2}, over8: {home: 0.8, away: 1.6}, over9: {home: 0.8, away: 1.6}, over10: {home: 0.8, away: 1.6}, ft: {home: 0.8, away: 1.6}, under5: {home: 0.8, away: 1.6}, tcards: {home: 0.8, away: 1.6}, gcards: {home: 0.8, away: 1.6}, winht: {home: 0.8, away: 1.6}, winft: {home: 0.8, away: 1.6}, rcard: {home: 0.8, away: 1.6}}})
               break;
+            default:
+            // do nothing
          }
     }
 

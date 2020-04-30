@@ -15,7 +15,7 @@ class Social extends React.Component {
           <Col xs={8} md={5} className="social-display justify-content-center">
             <img
               src={SocialImage}
-              alt="Contact Social Image"
+              alt="Contact Social"
               width="450px"
               height="400px"
             />

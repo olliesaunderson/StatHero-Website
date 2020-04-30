@@ -8,8 +8,7 @@ import login from "./pages/Login"
 import signup from "./pages/SignUp"
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 
 class App extends React.Component {

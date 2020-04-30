@@ -1,5 +1,4 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -25,7 +24,7 @@ class LoginComponent extends React.Component {
               </Link>
               <img
               src={SignUpImg}
-              alt="SignUp Image"
+              alt="SignUp"
               className="signupimg"/>
             </Col>
 

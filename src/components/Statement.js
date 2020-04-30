@@ -1,11 +1,4 @@
 import React from 'react';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import InstaIcon from '../../src/Images/contactImages/InstaIcon.png';
-import TwitterIcon from '../../src/Images/contactImages/TwitterIcon.png';
-import FacebookIcon from '../../src/Images/contactImages/FacebookIcon.png';
-import SocialImage from '../../src/Images/contactImages/SocialImage.png';
 
 class Statement extends React.Component {
   render() {

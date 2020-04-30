@@ -28,7 +28,7 @@ class Jumbo extends React.Component {
         <div className="col-sm custom-jumbo2">
         <img
             src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/homeImages/JumboFeat.png")}
-            alt="Jumbo Feat Image"
+            alt="Jumbo Feat"
             width="600px"
             height="500px"
           />
