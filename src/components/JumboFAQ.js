@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import JumboFAQ from '../../src/Images/faqImages/JumboFAQImage.png';
+import JumboFAQImage from '../../src/Images/faqImages/JumboFAQImage.png';
 
 class JumboFAQ extends React.Component {
   render() {
@@ -17,7 +17,7 @@ class JumboFAQ extends React.Component {
       </div>
         <div className="col-sm custom-about-jumbo">
         <img
-            src={JumboFAQ}
+            src={JumboFAQImage}
             alt="FAQ Feat"
             width="630px"
             height="500px"
