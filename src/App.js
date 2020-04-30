@@ -11,11 +11,13 @@ import {
   Route
 } from 'react-router-dom';
 
+
 class App extends React.Component {
   render() {
     return (
       <Router>
         <div>
+          <Route exact path='/' component={home} />
           <Route exact path='/home' component={home} />
           <Route exact path='/about' component={about} />
           <Route exact path='/stats' component={stats} />
