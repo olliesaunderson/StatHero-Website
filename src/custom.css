@@ -1,12 +1,14 @@
 /* Nav CSS*/
 .custom-button {
-  color: white;
-  background-color: #132A42;
-  border: none;
+  align-self: flex-end;
+
   margin-top: 12px;
   margin-bottom: 12px;
-  align-self: flex-end;
   margin-left: 175px;
+
+  color: white;
+  border: none;
+  background-color: #132A42;
 }
 
 .control-div {
@@ -108,9 +110,10 @@ a.custom-nav-button:hover {
       justify-content: flex-start;
     }
     .custom-nav-bg {
-      padding-left: 0px;
-      padding-right: 0px;
       display: block;
+
+      padding-right: 0px;
+      padding-left: 0px;
     }
   }
 
@@ -149,15 +152,17 @@ a {
 
 /* USP CSS*/
 .custom-usp-1 {
-  background-color: #F6F7F8;
   display: flex;
   flex-direction: column;
+
+  background-color: #F6F7F8;
 }
 
 .custom-usp-2 {
-  background-color: white;
   display: flex;
   flex-direction: column;
+
+  background-color: white;
 }
 
 
@@ -218,14 +223,14 @@ a {
 
 .custom-about-jumbo {
   padding-right: 75px;
-  padding-left: 75px;
   padding-bottom: 50px;
+  padding-left: 75px;
 }
 
 .custom-contact-jumbo {
   padding-right: 75px;
-  padding-left: 75px;
   padding-bottom: 80px;
+  padding-left: 75px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -252,10 +257,10 @@ a {
 
 @media only screen and (max-width: 768px) {
   .custom-about-jumbo {
-    padding-right: 75px;
-    padding-left: 75px;
-    padding-bottom: 50px;
     padding-top: 30px;
+    padding-right: 75px;
+    padding-bottom: 50px;
+    padding-left: 75px;
   }
 }
 
@@ -266,10 +271,10 @@ a {
 }
 
 .BannerImg {
+  display: block;
+
   margin-right: auto;
   margin-left: auto;
-
-  display: block;
 }
 
 @media only screen and (max-width: 768px) {
@@ -355,11 +360,12 @@ p {
 }
 
 p1 {
+  text-align: center;
+
   color: black;
 
   font-family: 'Assistant', sans-serif;
   font-size: 25px;
-  text-align: center;
 }
 
 h3 {
@@ -387,11 +393,13 @@ h4 {
 }
 
 h5 {
-  font-size: 35px;
-  font-family: 'Assistant', sans-serif;
-  color: #C42B32;
-  font-weight: 550;
   text-transform: uppercase;
+
+  color: #C42B32;
+
+  font-family: 'Assistant', sans-serif;
+  font-size: 35px;
+  font-weight: 550;
 }
 
 
@@ -412,18 +420,20 @@ h5 {
 }
 
 .USPImgs {
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: flex-end;
+
   width: 312px;
   height: 573.75px;
-  justify-content: flex-end;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 768px) {
   .USPImgs {
+    align-items: flex-end;
+
     width: 208px;
     height: 382.5px;
-    align-items: flex-end;
   }
 }
 
@@ -441,12 +451,12 @@ h5 {
 @media only screen and (max-width: 768px) {
   .cardContent {
     max-width: 100%;
-    margin-left: 5px ! important;
     margin-right: 5px ! important;
-    padding-right: 10px ! important;
-    padding-left: 10px ! important;
+    margin-left: 5px ! important;
     padding-top: 20px ! important;
+    padding-right: 10px ! important;
     padding-bottom: 10px ! important;
+    padding-left: 10px ! important;
   }
   .customCard {
     text-align: center;
@@ -468,20 +478,24 @@ h5 {
     font-weight: 700;
   }
   p {
+    padding-top: 10px;
+
     color: white ! important;
 
     font-family: 'Assistant', sans-serif;
     font-size: 20px ! important;
-    padding-top: 10px;
   }
   .custom-jumbo-button {
     margin-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
+
     text-align: center;
+
     border-color: #00DF8D;
     border-radius: 15px;
     background-color: #00DF8D;
+
     font-size: 20px;
     font-weight: 600;
 }
@@ -490,11 +504,12 @@ h5 {
 
 .cardContent {
   max-width: 100%;
+  margin: 0px;
   padding-top: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
-  margin: 0px;
+
   border: 0px solid rgba(0,0,0,.125) ! important;
 }
 
@@ -612,7 +627,7 @@ h5 {
   font-family: 'Assistant', sans-serif ! important;
 }
 
-a.custom-about-button: hover, focus, active {
+a.custom-about-button:hover:focus:active {
   margin-top: 15px;
   padding-right: 10px;
   padding-left: 10px;
@@ -761,7 +776,7 @@ a.custom-about-button: hover, focus, active {
     transition: all 0.5s ease-in-out 0s;
  }
 
-  li: active {
+  li:active {
     color: #000000;
   }
   .faqnav.active {
@@ -945,174 +960,197 @@ h9 {
 }
 
 .form2 {
-  border-color: black;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
-  margin-top: 40px;
+
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+  border-color: black;
 }
 
 .form3 {
-  border-color: black;
-  margin-bottom: 0px;
-  margin-top: 40px;
   width: 100%;
+  margin-top: 40px;
+  margin-bottom: 0px;
+
+  border-color: black;
 }
 
 .form-button {
+  width: 70px;
+  height: 40px;
+  margin-left: 3px;
+
   border-color: #00DF8D;
   border-radius: 3px;
   background-color: #00DF8D;
-  margin-left: 3px;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 17px;
   font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  width: 70px;
-  height: 40px;
 }
 
 .stats-form {
-  margin-left: 20px;
   margin-right: 20px;
-  padding-left: 0px;
+  margin-left: 20px;
   padding-right: 0px;
+  padding-left: 0px;
 }
 
 .label {
-  font-size: 20px;
-  font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  color: black;
   text-align: center;
   text-transform: uppercase;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
+  font-size: 20px;
+  font-weight: 600 ! important;
 }
 .social-display {
   align-items: center;
   flex-wrap: wrap;
+
   padding-top: 40px;
+  padding-right: 10px;
   padding-bottom: 40px;
   padding-left: 130px;
-  padding-right: 10px;
 }
 
 .social-display2 {
-  justify-content: center;
   align-items: center;
+  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+
   padding-right: 200px;
   padding-left: 100px;
-  flex-direction: row;
-  align-items: center;
 
 }
 
 .social-container {
-  padding-left: 0px ! important;
-  margin-left: 0px;
   margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px ! important;
+
   background-color: #132A42;
 }
 
 .social-content-padding {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  margin-bottom:0px;
   margin-top: 100px;
+  margin-bottom:0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .social-content-padding2 {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  margin-bottom: 20px;
   margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .social-content-padding3 {
-  padding-bottom: 0px;
-  padding-top: 0px;
-  margin-bottom: 100px;
   margin-top: 0px;
+  margin-bottom: 100px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 p5 {
-  font-size: 20px;
-  font-weight: 500 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  text-align: center;
-  color: black;
   padding-top: 10px;
   padding-bottom: 60px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
+  font-size: 20px;
+  font-weight: 500 ! important;
 }
 
 P6 {
-  font-size: 15px;
-  font-weight: 500 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  text-align: center;
-  color: #C42B32;
+  padding-right: 55px;
   padding-bottom: 20px;
   padding-left: 55px;
-  padding-right: 55px;
+
+  text-align: center;
+
+  color: #C42B32;
+
+  font-family: 'Assistant', sans-serif ! important;
+  font-size: 15px;
+  font-weight: 500 ! important;
 }
 
 h10 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 35px;
   font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  color: black;
-  margin-bottom: 10px;
-  margin-top: 60px;
-  text-align: center;
 }
 
 .statement-padding {
-  margin-left: 300px;
-  margin-right: 300px;
   display: flex;
   flex-direction: column;
+
+  margin-right: 300px;
+  margin-left: 300px;
 }
 
 @media only screen and (max-width: 768px) {
   .statement-padding {
-    margin-left: 90px;
-    margin-right: 90px;
     display: flex;
     flex-direction: column;
+
+    margin-right: 90px;
+    margin-left: 90px;
   }
   .social-display {
     align-items: center;
     flex-wrap: wrap;
+
     padding-top: 90px;
+    padding-right: 0px;
     padding-bottom: 10px;
     padding-left: 70px;
-    padding-right: 0px;
   }
   .social-display > img {
     width: 250px;
     height: 230px;
   }
   .social-display2 {
-    justify-content: center;
     align-items: center;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+
     padding-right: 80px;
     padding-left: 50px;
-    flex-direction: row;
-    align-items: center;
   }
   .social-content-padding {
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin-bottom:0px;
     margin-top: 50px;
+    margin-bottom:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .social-content-padding3 {
-    padding-bottom: 0px;
-    padding-top: 25px;
-    margin-bottom: 50px;
     margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 0px;
   }
 }
 
@@ -1122,37 +1160,41 @@ h10 {
     height: 200px;
   }
   .custom-contact-jumbo {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 40px;
     padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
   }
   .mailing-padding {
-    margin-left: 40px ! important;
-    margin-right: 40px ! important;
     display: flex;
     flex-direction: column;
+
+    margin-right: 40px ! important;
+    margin-left: 40px ! important;
   }
   .form-style {
     width: 220px ! important;
     height: 40px ! important;
   }
   .form-button {
+    width: 60px;
+    height: 40px;
+    margin-left: 3px;
+
     border-color: #00DF8D;
     border-radius: 3px;
     background-color: #00DF8D;
-    margin-left: 3px;
+
+    font-family: 'Assistant', sans-serif ! important;
     font-size: 12px;
     font-weight: 600 ! important;
-    font-family: 'Assistant', sans-serif ! important;
-    width: 60px;
-    height: 40px;
   }
   .statement-padding {
-    margin-left: 50px;
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
+
+    margin-right: 50px;
+    margin-left: 50px;
   }
   .social-display > img {
     width: 280px;
@@ -1161,31 +1203,33 @@ h10 {
   .social-display {
     align-items: center;
     flex-wrap: wrap;
+
     padding-top: 40px;
+    padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 55px;
-    padding-right: 0px;
   }
   .icons31 {
     width: 45px;
     height: 40px;
-    margin-left: 5px;
     margin-right: 5px;
+    margin-left: 5px;
   }
   .icons3 {
     width: 40px;
     height: 40px;
-    margin-left: 5px;
     margin-right: 5px;
+    margin-left: 5px;
   }
   .social-display2 {
-    justify-content: center;
     align-items: center;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+
     padding-right: 0px;
     padding-left: 70px;
-    flex-direction: row;
-    align-items: center;
   }
   .social-container {
     background-color: #132A42;
@@ -1198,26 +1242,26 @@ h10 {
 }
 
 .icons31 {
-  margin-left: 10px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 .icons3 {
-  margin-left: 10px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .custom-jumbo4 {
   padding-top: 30px;
   padding-right: 75px;
-  padding-left: 75px;
   padding-bottom: 100px;
+  padding-left: 75px;
 }
 
 .custom-jumbo5 {
   padding-top: 30px;
   padding-right: 75px;
-  padding-left: 75px;
   padding-bottom: 100px;
+  padding-left: 75px;
 }
 
 
@@ -1226,74 +1270,91 @@ h10 {
   .custom-jumbo4 {
     padding-top: 30px;
     padding-right: 75px;
-    padding-left: 75px;
     padding-bottom: 80px;
+    padding-left: 75px;
   }
   .custom-jumbo5 > img {
     width:300px;
     height:200px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
   .custom-jumbo5 {
     padding-top: 20px;
-    padding-left: 35px;
     padding-right: 0px;
     padding-bottom: 40px;
+    padding-left: 35px;
   }
 }
 @media only screen and (max-width: 600px) {
   h11 {
+    margin-top: 30px !important;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    color: black;
+
+    font-family: 'Assistant', sans-serif ! important;
     font-size: 35px;
     font-weight: 600 ! important;
-    font-family: 'Assistant', sans-serif ! important;
-    color: black;
-    margin-bottom: 10px;
-    margin-top: 30px !important;
-    text-align: center;
   }
 }
 
 h11 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 35px;
   font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  color: black;
-  margin-bottom: 10px;
-  margin-top: 40px;
-  text-align: center;
 }
 
 h12 {
+  margin-top: 35px;
+  margin-bottom: 0px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 35px;
   font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  color: black;
-  margin-bottom: 0px;
-  margin-top: 35px;
-  text-align: center;
 }
 
 h13 {
+  justify-content: center;
+
+  margin-top: 35px;
+  margin-bottom: 30px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 25px;
   font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  color: black;
-  margin-bottom: 30px;
-  margin-top: 35px;
-  text-align: center;
-  justify-content: center;
 }
 
 h14 {
+  justify-content: center;
+
+  margin-top: 80px;
+  margin-bottom: 0px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 35px;
   font-weight: 600 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  color: black;
-  margin-bottom: 0px;
-  margin-top: 80px;
-  text-align: center;
-  justify-content: center;
 }
 
 .container-flex {
@@ -1302,69 +1363,80 @@ h14 {
 }
 
 .login-row-2 {
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .navbar-brand {
   display: inline-block;
+
+  margin-right: 1rem;
   padding-top: .3125rem;
   padding-bottom: .3125rem;
-  margin-right: 1rem;
+
+  white-space: nowrap;
+
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap;
 }
 
 .logologin {
   display: inline-block;
+
+  white-space: nowrap;
+
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap;
 }
 
 .table-padding {
-  margin-left: 30px;
-  margin-right: 30px;
   display: flex;
-
-flex-direction: column;
 align-items: center;
+flex-direction: column;
+
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
 @media only screen and (max-width: 768px) {
   .table-padding {
-    margin-left:20px;
-    margin-right: 20px;
     display: flex;
-    padding-left: 0px;
-    padding-right: 0px;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+
     max-width: 33%;
+    margin-right: 20px;
+    margin-left:20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .table-padding {
-    margin-left:20px;
-    margin-right: 20px;
     display: flex;
-    padding-left: 0px;
-    padding-right: 0px;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+
     max-width: 60%;
+    margin-right: 20px;
+    margin-left:20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   h13 {
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    color: black;
+
+    font-family: 'Assistant', sans-serif ! important;
     font-size: 25px;
     font-weight: 600 ! important;
-    font-family: 'Assistant', sans-serif ! important;
-    color: black;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
 }
 }
 
@@ -1373,41 +1445,51 @@ align-items: center;
 }
 
 .loginsignup-col1 {
-  background-color: #132A42;
   padding: 20px;
+
+  background-color: #132A42;
 }
 
 .loginsignup-col2 {
-  background-color: white;
-  margin-left: 50px;
-  margin-right: 40px;
   margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 50px;
+
+  background-color: white;
 }
 
 P7 {
+  padding-bottom: 20px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 20px;
   font-weight: 500 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  text-align: center;
-  padding-bottom: 20px;
-  color: black;
 }
 
 P8 {
+  padding-right: 7px;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 15px;
   font-weight: 500 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  text-align: center;
-  padding-right: 7px;
-  color: black;
 }
 
 .login-label {
+  text-align: center;
+
+  color: black;
+
+  font-family: 'Assistant', sans-serif ! important;
   font-size: 18px;
   font-weight: 500 ! important;
-  font-family: 'Assistant', sans-serif ! important;
-  text-align: center;
-  color: black;
 }
 
 .login-form-size {
@@ -1422,8 +1504,8 @@ P8 {
 }
 
 .login {
-  margin-bottom: 30px;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .custom-nav-text-login2 {
@@ -1435,6 +1517,8 @@ P8 {
 }
 
 .custom-nav-button-login2 {
+  margin-top: 15px;
+  margin-bottom: 230px;
   padding-right: 15px;
   padding-left: 15px;
 
@@ -1444,9 +1528,6 @@ P8 {
 
   font-size: 20px;
   font-weight: 600;
-
-  margin-top: 15px;
-  margin-bottom: 230px;
   }
 
   .custom-nav-text-login3 {
@@ -1458,6 +1539,8 @@ P8 {
   }
 
   .custom-nav-button-login3 {
+    margin-top: 15px;
+    margin-bottom: 130px;
     padding-right: 15px;
     padding-left: 15px;
 
@@ -1467,9 +1550,6 @@ P8 {
 
     font-size: 20px;
     font-weight: 600;
-
-    margin-top: 15px;
-    margin-bottom: 130px;
     }
 
   .password-padding {
@@ -1478,21 +1558,22 @@ P8 {
 
   .form-control:focus {
       color: #495057;
-      background-color: #fff;
       border-color: #00DF8D;
       outline: 0;
+      background-color: #fff;
       box-shadow: 0 0 0 0.2rem rgba(0,223,141,.25);
   }
 
 .signupimg {
+  align-items: center;
+  justify-content: center;
+
   width: 472px;
   height: 508px;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: auto;
+  margin-right: auto;
   margin-bottom: auto;
+  margin-left: auto;
 }
 
 .signupimgcol {
@@ -1507,43 +1588,54 @@ P8 {
   }
   .logologin {
     display: inline-block;
+    align-self: center;
+
+    padding-bottom: 40px;
+
+    white-space: nowrap;
+
     font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap;
-    padding-bottom: 40px;
-    align-self: center;
   }
   .login-row-2 {
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   .loginsignup-col2 {
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-color: white;
 }
 h14 {
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+    text-align: center;
+
+    color: black;
+
+    font-family: 'Assistant', sans-serif ! important;
     font-size: 25px;
     font-weight: 600 ! important;
-    font-family: 'Assistant', sans-serif ! important;
-    color: black;
-    margin-bottom: 0px;
-    margin-top: 40px;
-    text-align: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 P7 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+
+    text-align: center;
+
+    color: black;
+
+    font-family: 'Assistant', sans-serif ! important;
     font-size: 15px;
     font-weight: 500 ! important;
-    font-family: 'Assistant', sans-serif ! important;
-    text-align: center;
-    padding-bottom: 10px;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
 }
 .login-form-size {
     width: 310px;
@@ -1558,10 +1650,12 @@ P7 {
     margin-right: 20px;
 }
 .phone-signup-padding {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 .custom-nav-button-login3 {
+  margin-top: 15px;
+  margin-bottom: 30px;
   padding-right: 15px;
   padding-left: 15px;
 
@@ -1571,14 +1665,13 @@ P7 {
 
   font-size: 20px;
   font-weight: 600;
-
-  margin-top: 15px;
-  margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .custom-nav-button-login3 {
+    margin-top: 15px;
+    margin-bottom: 50px;
     padding-right: 15px;
     padding-left: 15px;
 
@@ -1588,11 +1681,10 @@ P7 {
 
     font-size: 20px;
     font-weight: 600;
-
-    margin-top: 15px;
-    margin-bottom: 50px;
     }
     .custom-nav-button-login2 {
+      margin-top: 15px;
+      margin-bottom: 50px;
       padding-right: 15px;
       padding-left: 15px;
 
@@ -1602,32 +1694,37 @@ P7 {
 
       font-size: 20px;
       font-weight: 600;
-
-      margin-top: 15px;
-      margin-bottom: 50px;
       }
     h14 {
+      justify-content: center;
+
+      margin-top: 50px;
+      margin-bottom: 0px;
+
+      text-align: center;
+
+      color: black;
+
+      font-family: 'Assistant', sans-serif ! important;
       font-size: 25px;
       font-weight: 600 ! important;
-      font-family: 'Assistant', sans-serif ! important;
-      color: black;
-      margin-bottom: 0px;
-      margin-top: 50px;
-      text-align: center;
-      justify-content: center;
     }
     .logologin {
       display: inline-block;
+
+      padding-bottom: 20px;
+
+      white-space: nowrap;
+
       font-size: 1.25rem;
       line-height: inherit;
-      white-space: nowrap;
-      padding-bottom: 20px;
     }
     .loginsignup-col1 {
-    background-color: #132A42;
+    padding-top: 20px;
+    padding-right: 20px;
     padding-bottom: 40px;
     padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+
+    background-color: #132A42;
 }
 }
