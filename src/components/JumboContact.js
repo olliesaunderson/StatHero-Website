@@ -1,5 +1,6 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import JumboContact from '../../src/Images/contactImages/JumboContactImg.png';
 
 class JumboContact extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class JumboContact extends React.Component {
       </div>
         <div className="col-sm custom-contact-jumbo">
         <img
-            src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/contactImages/JumboContactImg.png")}
+            src={JumboContact}
             alt="FAQ Feat"
             width="600px"
             height="450px"

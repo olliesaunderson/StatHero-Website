@@ -3,6 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import About1 from '../../src/Images/aboutImages/About1.png';
+import About2 from '../../src/Images/aboutImages/About2.png';
+import About3 from '../../src/Images/aboutImages/About3.png';
 import {
   Link
 } from 'react-router-dom';
@@ -15,7 +18,7 @@ class AboutInfo extends React.Component {
           <Row className="d-flex align-items-center">
             <Col className="col-12 col-md-6 aboutimgpadding1 about1 d-flex justify-content-center">
               <img
-                src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/About1.png")}
+                src={About1}
                 alt="About 1"
                 width="400"
                 height="350"
@@ -36,7 +39,7 @@ class AboutInfo extends React.Component {
 
             <Col className="col-12 col-md-6 aboutimgpadding2 about2 d-flex justify-content-center">
               <img
-                src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/About2.png")}
+                src={About2}
                 alt="About 2"
                 width="350"
                 height="400"
@@ -47,7 +50,7 @@ class AboutInfo extends React.Component {
           <Row className="d-flex align-items-center">
             <Col className="col-10 col-md-5 d-flex justify-content-center about3 aboutimgpadding3">
               <img
-                src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/About3.png")}
+                src={About3}
                 alt="About 3"
                 width="400"
                 height="350"

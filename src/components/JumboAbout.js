@@ -1,6 +1,7 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
+import JumboAbout from '../../src/Images/aboutImages/AboutJumboImg.png';
 import {
   Link
 } from 'react-router-dom';
@@ -26,7 +27,7 @@ class JumboAbout extends React.Component {
       </div>
         <div className="col-sm custom-about-jumbo">
         <img
-            src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/aboutImages/AboutJumboImg.png")}
+            src={JumboAbout}
             alt="About Feat"
             width="600px"
             height="500px"

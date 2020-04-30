@@ -1,4 +1,7 @@
 import React from 'react';
+import USP1Img from '../../src/Images/homeImages/USP1Image.png';
+import USP2Img from '../../src/Images/homeImages/USP2Image.png';
+import USP3Img from '../../src/Images/homeImages/USP3Image.png';
 
 class USPDiv extends React.Component {
   render() {
@@ -11,7 +14,7 @@ class USPDiv extends React.Component {
               <p className="USPp">
                 Spiralling out of the competition?... Losing faith in your ability?... Where are you going wrong?... You can use the StatHero service to IMPROVE your team!
               </p>
-              <img className="USPImgs" src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/homeImages/USP1Image.png")} alt="usp1img" />
+              <img className="USPImgs" src={USP1Img} alt="usp1img" />
           </div>
 
           <div className="col-sm custom-usp-2">
@@ -19,7 +22,7 @@ class USPDiv extends React.Component {
               <p className="USPp">
                 High scoring game coming up? Maybe a guaranteed clean sheet? Find the key fixtures of the week and use them to your advantage for maximum points.
               </p>
-              <img className="USPImgs" src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/homeImages/USP2Image.png")} alt="usp2img"/>
+              <img className="USPImgs" src={USP2Img} alt="usp2img"/>
           </div>
 
           <div className="col-sm custom-usp-1">
@@ -27,7 +30,7 @@ class USPDiv extends React.Component {
               <p className="USPp">
               Make your changes, then sit back and watch as you retake that coveted top spot. Your competition will be dying to know the secret to all your success.
               </p>
-              <img className="USPImgs" src={require("/Users/olliesaunderson/Documents/Year 3/Degree Project/prototypesite/src/Images/homeImages/USP3Image.png")} alt="usp3img"  />
+              <img className="USPImgs" src={USP3Img} alt="usp3img"  />
           </div>
 
         </div>
