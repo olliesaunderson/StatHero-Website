@@ -6,8 +6,6 @@ import Table from 'react-bootstrap/Table';
 
 class Fixture extends React.Component {
   render() {
-    console.log(this.props.fixture)
-
     let fixtureDetail = null;
 
     if (this.props.fixture !== null) {
