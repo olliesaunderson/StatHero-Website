@@ -2,13 +2,12 @@ import React from "react";
 import { Route, HashRouter as Router } from 'react-router-dom'
 
 import Home from "./pages/Home"
-import about from "./pages/about"
-import stats from "./pages/stats"
-import contact from "./pages/contact"
-import faq from "./pages/faq"
+import about from "./pages/About"
+import stats from "./pages/Stats"
+import contact from "./pages/Contact"
+import faq from "./pages/Faq"
 import login from "./pages/Login"
 import signup from "./pages/SignUp"
-import Test from "./pages/Test"
 
 class App extends React.Component {
   render() {
