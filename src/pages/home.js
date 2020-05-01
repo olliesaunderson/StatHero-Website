@@ -7,7 +7,7 @@ import JumboImage from "../components/JumboImage";
 import Footer from "../components/Footer";
 import NavBar from '../components/NavBar.js';
 
-class home extends React.Component {
+class Home extends React.Component {
   render() {
     return (
         <div>
@@ -23,4 +23,4 @@ class home extends React.Component {
   }
 }
 
-export default home;
+export default Home;

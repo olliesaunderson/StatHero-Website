@@ -10,7 +10,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="md" className="custom-nav-bg fixed-top">
-        <Link className="navbar-brand" href="#home" to="/home">
+        <Link className="navbar-brand" href="#home" to="/">
 
             <img className="custom-nav-logo"
             src="logohero.png"

@@ -1,32 +1,27 @@
 import React from "react";
-import home from "./pages/home"
+import { Route, HashRouter as Router } from 'react-router-dom'
+
+import Home from "./pages/Home"
 import about from "./pages/about"
 import stats from "./pages/stats"
 import contact from "./pages/contact"
 import faq from "./pages/faq"
 import login from "./pages/Login"
 import signup from "./pages/SignUp"
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom';
-
+import Test from "./pages/Test"
 
 class App extends React.Component {
   render() {
     return (
-      <Router>
-        <div>
-          <Route exact path='/' component={home} />
-          <Route exact path='/home' component={home} />
-          <Route exact path='/about' component={about} />
-          <Route exact path='/stats' component={stats} />
-          <Route exact path='/faq' component={faq} />
-          <Route exact path='/contact' component={contact} />
-          <Route exact path='/signup' component={signup} />
-          <Route exact path='/login' component={login} />
-        </div>
-      </Router>
+        <Router>
+          <Route exact path="/" component={Home} />
+          <Route path='/about' component={about} />
+          <Route path='/stats' component={stats} />
+          <Route path='/faq' component={faq} />
+          <Route path='/contact' component={contact} />
+          <Route path='/signup' component={signup} />
+          <Route path='/login' component={login} />
+        </Router>
     )
   }
 }
