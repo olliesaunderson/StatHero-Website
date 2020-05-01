@@ -15,7 +15,7 @@ class LoginComponent extends React.Component {
       <Container fluid className="container-flex">
         <Row>
             <Col className="loginsignup-col1 signupimgcol">
-              <Link className="logologin" href="#home" to="/home">
+              <Link className="logologin" href="#home" to="/">
                   <img
                   src="logohero.png"
                   alt="StatHero Logo"
