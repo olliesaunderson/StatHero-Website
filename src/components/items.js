@@ -23,7 +23,7 @@ items[2] = {
 
 items[3] = {
     'id' : 3,
-    'question' : 'How do I creat a new account?',
+    'question' : 'How do I create a new account?',
     'answer' : 'Simply navigate to the top right corner of the page and press the sign up button. From there just follow the instructions and you will be part of our community in no time!',
     'tags' : ['all', 'account']
 };

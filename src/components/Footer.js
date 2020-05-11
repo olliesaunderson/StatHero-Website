@@ -19,15 +19,15 @@ class Footer extends React.Component {
       </Col>
 
       <Col className="col-12 col-md-6 icons2 phone-padding2">
-        <a href="https://twitter.com/BetHeroUK" className="align-self-center">
+        <a href="https://twitter.com/StatHeroUK" className="align-self-center">
           <img className="icons" src="TwitterIcon.png" alt="Twitter Icon" width="40px"
           height="30px" />
         </a>
-        <a href="https://twitter.com/BetHeroUK" className="align-self-center">
+        <a href="https://www.instagram.com/statherouk/" className="align-self-center">
           <img className="icons" src="InstaIcon.png" alt="Insta Icon" width="30px"
           height="30px" />
         </a>
-        <a href="https://twitter.com/BetHeroUK" className="align-self-center">
+        <a href="https://www.facebook.com/StatHerouk-101235374931645/" className="align-self-center">
           <img className="icons" src="FacebookIcon.png" alt="Facebook Icon" width="30px"
           height="30px" />
         </a>

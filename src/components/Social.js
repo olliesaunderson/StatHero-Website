@@ -26,15 +26,15 @@ class Social extends React.Component {
 
             <p4 is="custom" className="social-content-padding2">Follow us across social media for the latest updates and tips on how to get the best out of our service! We post the key stats for each gameweek in an easy to understand format so you take advantage.</p4>
             <div className="social-content-padding3">
-              <a href="https://twitter.com/BetHeroUK">
+              <a href="https://twitter.com/StatHeroUK">
                 <img className="icons31" src={TwitterIcon} alt="Twitter Icon" width="70px"
                 height="60px" />
               </a>
-              <a href="https://twitter.com/BetHeroUK">
+              <a href="https://www.instagram.com/statherouk/">
                 <img className="icons3" src={InstaIcon} alt="Insta Icon" width="60px"
                 height="60px" />
               </a>
-              <a href="https://twitter.com/BetHeroUK">
+              <a href="https://www.facebook.com/StatHerouk-101235374931645/">
                 <img className="icons3" src={FacebookIcon} alt="Facebook Icon" width="60px"
                 height="60px" />
               </a>
